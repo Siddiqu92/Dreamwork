@@ -1,0 +1,18 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+
+# Ignore user-specific WordPress files
+wp-config.php
+wp-content/uploads/
+
+# Ignore other project-specific files and folders
+...
+
+# Ignore everything except the wp-content/plugins and wp-content/themes folders
+/*
+!wp-content/
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+
